@@ -30,7 +30,7 @@ def resta(request):
     return HttpResponse(json_resultado, \
         content_type = "text/json-comment-filtered")
 
-# Función que divide dos fracciones.
+# Función que multiplica dos fracciones.
 @csrf_exempt
 def multiplicacion(request):
     body_unicode = request.body.decode('utf-8')
